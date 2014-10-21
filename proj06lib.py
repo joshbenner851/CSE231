@@ -2,7 +2,6 @@ import turtle
 #draws horizontal rectangle
 
 def draw_flag(name,width,orientation):
-    turtle.speed(5)
     #
     name = name.lower()
     orientation = orientation.lower()
@@ -10,7 +9,8 @@ def draw_flag(name,width,orientation):
     while(width<=0):
         width = int(input("Please enter an appropiate"\
         "width that is greater than 0"))
-    currentpos = turtle.pos()
+    currentpos2 = turtle.pos()
+    print(currentpos2 , "current pos is")
     #distinguishes what country should be drawn
     if(name=="norway"):
         #calculates the length from proportions
@@ -131,7 +131,9 @@ def draw_flag(name,width,orientation):
     else:
         print("This input is invalid")
     turtle.penup()
-    turtle.setpos(currentpos)
+    turtle.setpos(currentpos2)
+    turtle.setheading(0)
+    print("set position to", currentpos2)
 #draws a horizontal box that is used for
 #the big flag but also a smaller rectangle for the cross
 def draw_horizrect(length,width,color):
@@ -243,4 +245,4 @@ def draw_vertrect(length,width,color):
             turtle.forward(width)
         turtle.right(90)
     turtle.end_fill()
-draw_flag("SweDen",200,"PoRtrAit")
+#draw_flag("denmark",200,"PoRtrAit")
