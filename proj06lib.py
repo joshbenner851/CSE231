@@ -10,7 +10,7 @@ def draw_flag(name,width,orientation):
         width = int(input("Please enter an appropiate"\
         "width that is greater than 0"))
     currentpos2 = turtle.pos()
-    print(currentpos2 , "current pos is")
+    #print(currentpos2 , "current pos is")
     #distinguishes what country should be drawn
     if(name=="norway"):
         #calculates the length from proportions
@@ -19,7 +19,7 @@ def draw_flag(name,width,orientation):
         if(orientation=="landscape"):
             #calls the big rectangle
             draw_horizrect(length,width,"red")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             #goes down the left edge to start position for cross
             turtle.forward(width*.375)
@@ -31,7 +31,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"red")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*.375)
             turtle.left(90)
@@ -41,7 +41,7 @@ def draw_flag(name,width,orientation):
         length = width * 1.3888
         if(orientation=="landscape"):
             draw_horizrect(length,width,"blue")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*.375)
             turtle.left(90)
@@ -49,7 +49,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"blue")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*.375)
             turtle.left(90)
@@ -59,7 +59,7 @@ def draw_flag(name,width,orientation):
         length = width * 1.375
         if(orientation=="landscape"):
             draw_horizrect(length,width,"white")
-            print("the length is " , length, " and the width is ", width)
+            #print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*.375)
             turtle.left(90)
@@ -67,7 +67,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"white")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*.375)
             turtle.left(90)
@@ -78,7 +78,7 @@ def draw_flag(name,width,orientation):
         length = width * 1.32
         if(orientation=="landscape"):
             draw_horizrect(length,width,"crimson")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -86,7 +86,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"crimson")
-            print("the length is " , length, " and the width is ", width)
+            #print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -96,7 +96,7 @@ def draw_flag(name,width,orientation):
         length = width * 1.6
         if(orientation=="landscape"):
             draw_horizrect(length,width,"navy")
-            print("the length is " , length, " and the width is ", width)
+           # print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -104,7 +104,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"navy")
-            print("the length is " , length, " and the width is ", width)
+            #print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -114,7 +114,7 @@ def draw_flag(name,width,orientation):
         length = width * 1.6363
         if(orientation=="landscape"):
             draw_horizrect(length,width,"ghost white")
-            print("the length is " , length, " and the width is ", width)
+            #print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -122,7 +122,7 @@ def draw_flag(name,width,orientation):
         elif(orientation=="portrait"):
             turtle.right(90)
             draw_horizrect(length,width,"ghost white")
-            print("the length is " , length, " and the width is ", width)
+            #print("the length is " , length, " and the width is ", width)
             turtle.right(90)
             turtle.forward(width*(12/28))
             turtle.left(90)
@@ -133,7 +133,7 @@ def draw_flag(name,width,orientation):
     turtle.penup()
     turtle.setpos(currentpos2)
     turtle.setheading(0)
-    print("set position to", currentpos2)
+    #print("set position to", currentpos2)
 #draws a horizontal box that is used for
 #the big flag but also a smaller rectangle for the cross
 def draw_horizrect(length,width,color):
@@ -178,7 +178,7 @@ def draw_cross(length,width,color,style):
         #moves distance forward to draw a vertical rectangle
         turtle.forward(length*(12/37))
         turtle.left(90)
-        print("the length is " , length, " and the width is ", width)
+        #print("the length is " , length, " and the width is ", width)
         #draws vertical rectangle
         draw_vertrect(width,w2,color2)
     #changes width because second cross
@@ -187,7 +187,7 @@ def draw_cross(length,width,color,style):
         draw_horizrect(length,w2,color2)
         turtle.forward(length*(6/22))
         turtle.left(90)
-        print("the length is " , length, " and the width is ", width)
+        #print("the length is " , length, " and the width is ", width)
         draw_vertrect(width,w2,color2)
     #distuingishes if a second cross needs to be drawn
     if(style=="thick"):
@@ -213,9 +213,9 @@ def draw_cross(length,width,color,style):
         #new prop to move to set position for vert rectangle
         turtle.forward(length*(7/22))
         turtle.left(90)
-        print("the length is " , length, " and the width is ", width)
+        #print("the length is " , length, " and the width is ", width)
         draw_vertrect(width,w2,color)
-        print("the width of the second cross is" , width)
+        #print("the width of the second cross is" , width)
         
 #draws the vertical rectangle of cross
 def draw_vertrect(length,width,color):
@@ -223,23 +223,24 @@ def draw_vertrect(length,width,color):
     turtle.color(color)
     turtle.begin_fill()
     #uses color to determine length of cross
-    if(color=="blue" or color == "red" or color == "light coral" or color=="yellow"):
+    if(color=="blue" or color == "red" or color == "light coral"
+       /or color=="yellow"):
         length*=.4375
     elif(color == "snow"or color=="navy" ):
         length*=.42857
     else:
         length*=.375
-    print("the length of the first " , length, " and the width is ", width)
+   # print("the length of the first " , length, " and the width is ", width)
     #loops to draw vertical rectangle
     for x in range(5):
         if(x%5==0):
             #draws first half of left vertical line
             turtle.forward((length))
-            print("drawing length")
+           # print("drawing length")
         #draws from top of vertical to bottom of flag
         elif(x%2==0):
             turtle.forward(length*2+width)
-            print("drawing long side")
+            #print("drawing long side")
         #draws small side of vertical rectangle
         elif(x!=5):
             turtle.forward(width)

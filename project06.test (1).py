@@ -38,6 +38,7 @@ def main():
     turtle.pendown()
 
     # Draw second row of three flags in portrait orientation
+    
     proj06lib.draw_flag('Norway',height,'portrait')
     turtle.penup()
     turtle.forward(100)
