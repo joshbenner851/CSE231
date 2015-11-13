@@ -1,0 +1,21 @@
+2010 Ireland                                            EUR        4468
+2011 Ireland                                            EUR        4523
+2012 Ireland                                            EUR        4576
+2010 Senegal                                            AFR       12951
+2011 Senegal                                            AFR       13331
+2012 Senegal                                            AFR       13726
+2010 Seychelles                                         AFR          91
+2011 Seychelles                                         AFR          92
+2012 Seychelles                                         AFR          92
+2010 Swaziland                                          AFR        1193
+2011 Swaziland                                          AFR        1212
+2012 Swaziland                                          AFR        1231
+2010 Sweden                                             EUR        9382
+2011 Sweden                                             EUR        9449
+2012 Sweden                                             EUR        9511
+2010 Switzerland                                        EUR        7831
+2011 Switzerland                                        EUR        7915
+2012 Switzerland                                        EUR        7997
+2010 United Kingdom of Great Britain & Northern Ireland EUR       62066
+2011 United Kingdom of Great Britain & Northern Ireland EUR       62427
+2012 United Kingdom of Great Britain & Northern Ireland EUR       62783

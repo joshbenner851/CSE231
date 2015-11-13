@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>My Awesome Page</title>
+	</head>
+	<body>
+		<h1>Hi there!</h1>
+		<p>Thanks for visiting my web page.</p>
+		<p>I hope you like it.</p>
+		<ul>
+			<li>Pizza</li>
+			<li>Beer</li>
+		</ul>
+	</body>
+</html>
